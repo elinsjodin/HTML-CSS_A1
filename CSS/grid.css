@@ -1,0 +1,13 @@
+.column {
+  float: left;
+  width: 24%;
+  background-color: seashell;
+  border: 2px solid thistle;
+  padding: 2px;
+  margin-left: 2px;
+}
+div:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,27 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+
+  flex-direction: column;
+  gap: 10px;
+}
+main > section {
+  background-color: blanchedalmond;
+  border: 2px solid rosybrown;
+  width: 20%;
+}
+main section:nth-child(2) {
+  flex-grow: 3;
+}
+@media screen and (min-width: 768px) {
+  main {
+    flex-direction: row;
+  }
+}
