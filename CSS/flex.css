@@ -4,21 +4,81 @@ body {
 }
 body {
   display: flex;
+  font-family: Verdana;
+  font-size: 15px;
 }
 main {
   display: flex;
   justify-content: space-between;
-
   flex-direction: column;
   gap: 10px;
 }
 main > section {
   background-color: blanchedalmond;
   border: 2px solid rosybrown;
-  width: 20%;
+  border-radius: 10xpx;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 15px;
 }
-main section:nth-child(2) {
+.text {
   flex-grow: 3;
+  flex-wrap: wrap;
+}
+.citat,
+.text,
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.citat {
+  display: flex;
+  flex: 1 0 200px;
+  flex-wrap: wrap;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a:hover {
+  cursor: pointer;
+  background-color: thistle;
+  border-bottom-left-radius: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-top-right-radius: 20px;
+  -webkit-border-radius-bottomleft: 25px;
+  -moz-border-radius-topright: 20px;
+  -webkit-border-radius-topright: 25px;
+  box-shadow: 0px 2px 4px 0px;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+button {
+  display: block;
+  width: 50%;
+  background-color: rgb(114, 81, 81);
+  box-shadow: 0px 2px 4px 0px;
+  font-size: 15px;
+  border: none;
+  padding: 10px 17px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 5px;
+}
+button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  background-color: thistle;
 }
 @media screen and (min-width: 768px) {
   main {

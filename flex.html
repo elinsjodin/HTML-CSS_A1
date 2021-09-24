@@ -9,22 +9,52 @@
   </head>
   <body>
     <main>
-      <section>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ab
-        rerum. Id ea laborum ducimus ab provident. Assumenda dicta nulla
-        obcaecati. Iusto obcaecati cumque fuga iure provident dolore similique
-        iste?
+      <section class="citat">
+        Min favoritfilm är "Breakfast at Tiffany's" och mitt favoritcitat ur
+        filmen är när Holly Golightly (Audrey Hepburn) säger "Well, when I get
+        it the only thing that does any good is to jump in a cab and go to
+        Tiffany's. Calms me down right away. The quietness and the proud look of
+        it; nothing very bad could happen to you there. If I could find a
+        real-life place that'd make me feel like Tiffany's, then - then I'd buy
+        some furniture and give the cat a name!"
       </section>
-      <section>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et pariatur,
-        aperiam tempore fugit maxime praesentium omnis eos sapiente quaerat
-        dolores, beatae modi suscipit iure. In consequatur expedita quibusdam
-        reprehenderit odio.
+      <section class="text">
+        <a href="https://surfalugnt.se/" target="_blank"
+          >Sidan surfalugnt.se är en webbplats för det ideella initiativet Surfa
+          Lugnt som är till för att vuxna ska få hjälp med att förstå ungas och
+          barns aktivitet på nätet, och jobbar för att det ska bli säkrare för
+          just unga att använda sig av internet. Hemsidan är väl utformad med
+          information kring hur barn och unga kan ta del av det positiva med
+          internet där vuxna ska kunna vara delaktiga på olika sätt, och att
+          motverka b la nätmobbning och att skydda barn mot det som kan påverka
+          dem negativt online. Det är också en plats där vuxna kan ställa
+          generella och specifika frågor till föreningens experter gällande
+          barns digitala aktivitet, samt få tips om hur de kan prata med sina
+          barn om just internet och vad de gör när de använder det. Där finns
+          även olika guider man kan ladda ner och ta del av som är framtagna
+          tillsammans med deras samarbetspartners som IIS och Bris.</a
+        >
       </section>
-      <section>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nisi et
-        molestias ex, rerum dolores, minus, nulla consectetur consequuntur iste
-        reiciendis sit. Placeat libero amet vero velit, hic perspiciatis atque!
+      <section class="form">
+        <form>
+          <label>Förnamn</label>
+          <input type="text" name="firstname" required />
+          <label>Efternamn</label>
+          <input type="text" name="lastname" required />
+          <label>Telefon</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            required
+            placeholder="xxx-xxxxxxx"
+            pattern="[0-9]{3}-[0-9]{7}"
+            required="required"
+          />
+          <label>E-post</label>
+          <input type="email" name="email" required />
+          <button type="submit">Skicka</button>
+        </form>
       </section>
     </main>
   </body>
